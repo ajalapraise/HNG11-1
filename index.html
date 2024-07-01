@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Stage One Task</title>
+  </head>
+  <body>
+    <div class="home">
+      <div class="info">
+        <h2 data-testid="slackDisplayName">Slack Name: PraiseAjala</h2>
+
+        <div class="current">
+          <p><span>Current Day of the week (e.g. Monday, friday):</span></p>
+          <p id="currentDay" data-testid="currentDay"></p>
+        </div>
+        <div class="current">
+          <p><span>Current Time in UTC:</span></p>
+          <p id="currentTimeUTC" data-testid="currentTimeUTC"></p>
+        </div>
+        <div class="current">
+          <p><span>Slack Email:</span> ajalapraise1@gmail.com</p>
+          <p id="slackEmail" data-testid="slackEmail"></p>
+        </div>
+      </div>
+      <div class="img-cont">
+        <img
+          src="./my-profile-pic.jpg"
+          alt="PraiseAjala"
+          data-testid="slackProfilePicture"
+        />
+      </div>
+    </div>
+    <div class="goals-cont">
+      <h1>MY PLAN FOR THE NEXT TWO YEARS:</h1>
+      <ul
+        style="
+          list-style-type: number;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          padding: 10px;
+        "
+      >
+        <li>
+          Graduate with a very good grade because i am currently a student and
+          that is the primary goal.
+        </li>
+        <li>
+          I aim to continuously improve my technical skills, particularly in web
+          development and programming languages. I plan to take advanced
+          courses, participate in coding challenges, work on personal projects,
+          collaborations, certifications and all to solidify my knowledge and
+          keep up with industry trends so that i can land a good paying job
+        </li>
+        <li>
+          Beyond technical skills, I want to focus on soft skills such as
+          communication, teamwork, and time management. I believe these are
+          crucial for personal and professional success because that's another
+          important thing in thw tech space necessary for having a good career
+        </li>
+
+        <li>
+          Enjoy life because life is too short than to just continue to work all
+          day, so Maintaining a healthy lifestyle, regular exercise, a balanced
+          diet, and mindfulness practices into my routine to ensure overall
+          well-being.
+        </li>
+      </ul>
+      <p>
+        I think these are the major things I can share with you guys for now,
+        thank you.You can also kickstart your tecg career by applying for
+        <a href="http://hng.tech/learn" target="_blank" data-testid="hngLink"
+          >HNG Programs</a
+        >, then for web developers out there having issue with their site
+        ranking or SEO optimizations, you can try this
+        <a href="http://keyword.dog/" target="_blank" data-testid="keywordLink"
+          >website</a
+        >. Finally, you can also try out
+        <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink">
+          this link</a
+        >
+        to scrape websites.
+      </p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
